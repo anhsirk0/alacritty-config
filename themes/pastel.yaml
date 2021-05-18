@@ -1,0 +1,30 @@
+# Colors (Pastel)
+colors:
+  # Default colors
+  primary:
+    # hard contrast: background = '0x1d2021'
+    background: '0x2b2e33'
+    # soft contrast: background = '0x32302f'
+    foreground: '0xdcdbd7'
+
+  # Normal colors
+  normal:
+    black:   '0x2b2e33'
+    red:     '0xdea981'
+    green:   '0x81bba3'
+    yellow:  '0xe2d27a'
+    blue:    '0x65a4cf'
+    magenta: '0x9576a2'
+    cyan:    '0x6dcac0'
+    white:   '0xa89984'
+
+  # Bright colors
+  bright:
+    black:   '0x928374'
+    red:     '0xdb948e'
+    green:   '0x8dbc92'
+    yellow:  '0xe0d885'
+    blue:    '0x6bbac1'
+    magenta: '0xda80a6'
+    cyan:    '0x88c0d0'
+    white:   '0xdcdbd7'
