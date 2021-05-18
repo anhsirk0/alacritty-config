@@ -5,22 +5,16 @@ font:
     # Font family
     #
     # Default:
-    #   - (macOS) Menlo
-    #   - (Linux/BSD) monospace
-    #   - (Windows) Consolas
-    # family: SauceCodePro Nerd Font
-    # family: CodeNewRoman Nerd Font
-    # family: RobotoMono Nerd Font
+    family: Source Code Pro
     # family: Hack
-    family: JetBrains Mono
-    # family: UbuntuMono Nerd Font
-    # family: Monofur Nerd Font
+    # family: DejaVu Sans Mono  
+    # family: JetBrains Mono
     # family: TerminessTTF Nerd Font
     # family: NotoSansMono Nerd Font
     # family: Fira Code Retina
 
     # The `style` can be specified to pick a specific face.
-    style: Medium
+    # style: Medium
 
   # Bold font face
   bold:
@@ -28,11 +22,12 @@ font:
     #
     # If the bold family is not specified, it will fall back to the
     # value specified for the normal font.
-    # family: SauceCodePro Nerd Font
+    # family: Source Code Pro
     # family: CodeNewRoman Nerd Font
     # family: RobotoMono Nerd Font
-    # family: Hack
-    family: JetBrains Mono
+    family: Hack
+    # family: DejaVu Sans Mono
+    # family: JetBrains Mono
     # family: UbuntuMono Nerd Font
     # family: Monofur Nerd Font
     # family: TerminessTTF Nerd Font
@@ -48,11 +43,11 @@ font:
     #
     # If the italic family is not specified, it will fall back to the
     # value specified for the normal font.
-    # family: SauceCodePro Nerd Font Mono
+    # family: Source Code Pro Mono
     # family: CodeNewRoman Nerd Font
     # family: RobotoMono Nerd Font
-    # family: Hack
-    family: JetBrains Mono
+    family: Hack
+    # family: JetBrains Mono
     # family: UbuntuMono Nerd Font
     # family: Monofuritalic Nerd Font Mono
     # family: TerminessTTF Nerd Font
@@ -67,7 +62,7 @@ font:
     #
     # If the bold italic family is not specified, it will fall back to the
     # value specified for the normal font.
-    # family: SauceCodePro Nerd Font Mono
+    # family: Source Code Pro Mono
     # family: CodeNewRoman Nerd Font
     # family: RobotoMono Nerd Font
     # family: Hack
@@ -118,7 +113,7 @@ draw_bold_text_with_bright_colors: true
 window:
   padding:
     x: 8
-    y: 0
+    y: 2
 
 cursor:
   style:
@@ -127,31 +122,33 @@ cursor:
     # style: Beam
 
 # Colors (One Dark)
-# Colors (One Dark)
+# Colors (Pastel)
 colors:
   # Default colors
   primary:
-    background: '0x282c34'
-    foreground: '0xabb2bf'
+    # hard contrast: background = '0x1d2021'
+    background: '0x2b2e33'
+    # soft contrast: background = '0x32302f'
+    foreground: '0xdcdbd7'
 
   # Normal colors
   normal:
-    black:   '0x1e2127'
-    red:     '0xe06c75'
-    green:   '0x98c379'
-    yellow:  '0xd19a66'
-    blue:    '0x61afef'
-    magenta: '0xc678dd'
-    cyan:    '0x56b6c2'
-    white:   '0xabb2bf'
+    black:   '0x2b2e33'
+    red:     '0xdea981'
+    green:   '0x81bba3'
+    yellow:  '0xe2d27a'
+    blue:    '0x65a4cf'
+    magenta: '0x9576a2'
+    cyan:    '0x6dcac0'
+    white:   '0xa89984'
 
   # Bright colors
   bright:
-    black:   '0x5c6370'
-    red:     '0xe06c75'
-    green:   '0x98c379'
-    yellow:  '0xd19a66'
-    blue:    '0x61afef'
-    magenta: '0xc678dd'
-    cyan:    '0x56b6c2'
-    white:   '0xffffff'
+    black:   '0x928374'
+    red:     '0xdb948e'
+    green:   '0x8dbc92'
+    yellow:  '0xe0d885'
+    blue:    '0x6bbac1'
+    magenta: '0xda80a6'
+    cyan:    '0x88c0d0'
+    white:   '0xdcdbd7'
